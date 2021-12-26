@@ -79,6 +79,8 @@ and took the result from the terminal for example:
 | ![image](https://user-images.githubusercontent.com/62290677/147417488-8c9dba7e-3e9e-4d24-9dde-a630725ea5fc.png)      | ![image](https://user-images.githubusercontent.com/62290677/147417549-6f459c83-7d12-40e8-b94c-4253f349d487.png) |
 | ![image](https://user-images.githubusercontent.com/62290677/147417580-6a682fe1-9343-48ee-b314-77a83e10a4a0.png)   | ![image](https://user-images.githubusercontent.com/62290677/147417605-0bd88385-5e85-4a2c-94b5-0efc25c9c5e3.png)        |
 | ![image](https://user-images.githubusercontent.com/62290677/147417617-f793c2b8-df47-40dd-9f35-0b2c46aaa296.png)   | ![image](https://user-images.githubusercontent.com/62290677/147417622-208cd026-4435-4e5a-975f-3190f7c43081.png)        |
+| ![image](https://user-images.githubusercontent.com/62290677/147419000-45e3a2d2-55a0-4a34-b256-a53e265212e9.png) | ![image](https://user-images.githubusercontent.com/62290677/147419008-aec9558b-04d9-4922-8d00-534dd1d7376b.png) |
+| ![image](https://user-images.githubusercontent.com/62290677/147419017-3bfef0e6-9b25-44c3-a380-9e19dce7bd3d.png) | ![image](https://user-images.githubusercontent.com/62290677/147419028-3d810803-a0c4-4751-b96d-322a57213b63.png) |
 
 ### data structure 
 
