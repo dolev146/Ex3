@@ -82,6 +82,10 @@ and took the result from the terminal for example:
 | ![image](https://user-images.githubusercontent.com/62290677/147419000-45e3a2d2-55a0-4a34-b256-a53e265212e9.png) | ![image](https://user-images.githubusercontent.com/62290677/147419008-aec9558b-04d9-4922-8d00-534dd1d7376b.png) |
 | ![image](https://user-images.githubusercontent.com/62290677/147419017-3bfef0e6-9b25-44c3-a380-9e19dce7bd3d.png) | ![image](https://user-images.githubusercontent.com/62290677/147419028-3d810803-a0c4-4751-b96d-322a57213b63.png) |
 
+![image](https://user-images.githubusercontent.com/62290677/147501138-c1e7f5d3-04bf-435c-96ba-c9646dacb857.png)
+windows 10 pro
+
+
 ### data structure 
 
 the Graph captures the data in 4 Dictionaries . 
