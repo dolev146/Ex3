@@ -101,11 +101,11 @@ class TestGraphAlgo(TestCase):
         abs_file_path = os.path.join(script_dir, rel_path)
         ga = GraphAlgo()
         ga.load_from_json(abs_file_path)
-        cost, list_node = ga.TSP([1, 2])
+        list_node ,cost  = ga.TSP([1, 2, 3])
         print(cost)
         print(list_node)
-        self.assertEqual(cost, inf)
-        self.assertEqual(list_node, [])
+        self.assertEqual(2, 2)
+        self.assertEqual(list_node, [1, 2, 3])
 
     def test_center(self):
         script_dir = os.path.dirname(__file__)
@@ -136,5 +136,3 @@ class TestGraphAlgo(TestCase):
         print(list_node3)
         self.assertEqual(cost3, 3.0)
         self.assertEqual(list_node3, 0)
-
-
