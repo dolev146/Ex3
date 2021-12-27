@@ -48,9 +48,9 @@ def save(file_name, graph) -> bool:
         w_edge = edge.w
         edge_dict_individual = {'src': src_edge, 'w': w_edge, 'dest': dest_edge}
         dict_json['Edges'].append(edge_dict_individual)
-    str_file = "./save/" + file_name + '.json'
+    # str_file = "./save/" + file_name + '.json'
     try:
-        with open(str_file, 'w+') as f:
+        with open(file_name, 'w+') as f:
             json.dump(dict_json, f, indent=6)
             return True
     except Exception as e:
