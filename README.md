@@ -52,11 +52,12 @@ please watch the demo to know the specific input sytax.
 - insert the id numbers of the node seperated by comma (' , ')
 - press the Return button on the keyboard AKA Enter button
 
+**watch the YouTube video explaining everything**
 [![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/62290677/147417843-89756c59-f705-4bda-b28d-c2324b4f7161.png)](https://www.youtube.com/watch?v=rk7QZly6sPE)
 
 ### Test our code
 
-![image](https://user-images.githubusercontent.com/62290677/147556628-8d13c809-8354-4192-96a6-ebade85e9eb7.png)
+![image](https://user-images.githubusercontent.com/62290677/147556840-a31223db-600a-421b-b621-d58a03e749df.png)
 
 just follow the instructions in the Ex3.py , how to disable the gui and print the results you wish to check
 
