@@ -16,13 +16,13 @@ class TestDiGraph(TestCase):
         self.assertEqual(4, len(nodes))
         print(g.get_all_v())
         self.assertEqual(nodes[1],
-                         CNode(node_id_paramter=1, pos=(1, 2, 3), info="white", length=None, rank=None, previous=None))
+                         CNode(node_id_paramter=1, pos=(1, 2, 3), info="white", length=None, rank=0, previous=None))
         self.assertEqual(nodes[2],
-                         CNode(node_id_paramter=2, pos=(1, 2, 3), info="white", length=None, rank=None, previous=None))
+                         CNode(node_id_paramter=2, pos=(1, 2, 3), info="white", length=None, rank=0, previous=None))
         self.assertEqual(nodes[3],
-                         CNode(node_id_paramter=3, pos=(1, 2, 3), info="white", length=None, rank=None, previous=None))
+                         CNode(node_id_paramter=3, pos=(1, 2, 3), info="white", length=None, rank=0, previous=None))
         self.assertEqual(nodes[4],
-                         CNode(node_id_paramter=4, pos=(1, 2, 3), info="white", length=None, rank=None, previous=None))
+                         CNode(node_id_paramter=4, pos=(1, 2, 3), info="white", length=None, rank=0, previous=None))
 
     def test_e_size(self):
         """
