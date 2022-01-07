@@ -8,7 +8,7 @@ class TestGraphAlgo(TestCase):
 
     def test_load_from_json(self):
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/short1.json"
+        rel_path = "./data_ex3/short1.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         ga = GraphAlgo()
         ga.load_from_json(abs_file_path)
@@ -26,7 +26,7 @@ class TestGraphAlgo(TestCase):
         but it will ruin the gui functionality
         """
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/short1.json"
+        rel_path = "./data_ex3/short1.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         ga = GraphAlgo()
         ga.load_from_json(abs_file_path)
@@ -38,21 +38,21 @@ class TestGraphAlgo(TestCase):
 
     def test_shortest_path(self):
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/short1.json"
+        rel_path = "./data_ex3/short1.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         ga = GraphAlgo()
         ga.load_from_json(abs_file_path)
         cost, list_node = ga.shortest_path(1, 2)
         self.assertEqual(cost, inf)
         self.assertEqual(list_node, [])
-        rel_path2 = "../data/short2.json"
+        rel_path2 = "./data_ex3/short2.json"
         abs_file_path2 = os.path.join(script_dir, rel_path2)
         ga2 = GraphAlgo()
         ga2.load_from_json(abs_file_path2)
         cost2, list_node2 = ga2.shortest_path(0, 1)
         self.assertEqual(cost2, 1)
         self.assertEqual(list_node2, [0, 1])
-        rel_path3 = "../data/short3.json"
+        rel_path3 = "./data_ex3/short3.json"
         abs_file_path3 = os.path.join(script_dir, rel_path3)
         ga3 = GraphAlgo()
         ga3.load_from_json(abs_file_path3)
@@ -69,7 +69,7 @@ class TestGraphAlgo(TestCase):
         ** update we learned to use os.path to fix that
         """
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/T1.json"
+        rel_path = "./data_ex3/T1.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         ga = GraphAlgo()
         ga.load_from_json(abs_file_path)
@@ -78,7 +78,7 @@ class TestGraphAlgo(TestCase):
         self.assertNotEqual(ga.get_graph().get_all_v().get(1).x, None)
         self.assertNotEqual(ga.get_graph().get_all_v().get(2).x, None)
         self.assertNotEqual(ga.get_graph().get_all_v().get(3).x, None)
-        rel_path = "../data/T2.json"
+        rel_path = "./data_ex3/T2.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         ga.load_from_json(abs_file_path)
         ga.plot_graph()
@@ -86,7 +86,7 @@ class TestGraphAlgo(TestCase):
         self.assertNotEqual(ga.get_graph().get_all_v().get(1).x, None)
         self.assertNotEqual(ga.get_graph().get_all_v().get(2).x, None)
         self.assertNotEqual(ga.get_graph().get_all_v().get(3).x, None)
-        rel_path = "../data/T3.json"
+        rel_path = "./data_ex3/T3.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         ga.load_from_json(abs_file_path)
         ga.plot_graph()
@@ -97,7 +97,7 @@ class TestGraphAlgo(TestCase):
 
     def test_TSP(self):
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/tsp_test1.json"
+        rel_path = "./data_ex3/tsp_test1.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         ga = GraphAlgo()
         ga.load_from_json(abs_file_path)
@@ -109,7 +109,7 @@ class TestGraphAlgo(TestCase):
 
     def test_center(self):
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/center_test1.json"
+        rel_path = "./data_ex3/center_test1.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         ga = GraphAlgo()
         ga.load_from_json(abs_file_path)
@@ -118,7 +118,7 @@ class TestGraphAlgo(TestCase):
         print(list_node)
         self.assertEqual(cost, 1)
         self.assertEqual(list_node, 0)
-        rel_path2 = "../data/center_test2.json"
+        rel_path2 = "./data_ex3/center_test2.json"
         abs_file_path2 = os.path.join(script_dir, rel_path2)
         ga2 = GraphAlgo()
         ga2.load_from_json(abs_file_path2)
@@ -127,7 +127,7 @@ class TestGraphAlgo(TestCase):
         print(list_node2)
         self.assertEqual(cost2, 9223372036854775807)
         self.assertEqual(list_node2, -1)
-        rel_path3 = "../data/center_test3.json"
+        rel_path3 = "./data_ex3/center_test3.json"
         abs_file_path3 = os.path.join(script_dir, rel_path3)
         ga3 = GraphAlgo()
         ga3.load_from_json(abs_file_path3)

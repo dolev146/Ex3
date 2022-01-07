@@ -14,17 +14,17 @@ class RuntimeTest(TestCase):
         global gaA2
         global gaA5
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/A0.json"
+        rel_path = "../data_ex3/A0.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         gaA0 = GraphAlgo()
         gaA0.load_from_json(abs_file_path)
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/A2.json"
+        rel_path = "../data_ex3/A2.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         gaA2 = GraphAlgo()
         gaA2.load_from_json(abs_file_path)
         script_dir = os.path.dirname(__file__)
-        rel_path = "../data/A5.json"
+        rel_path = "../data_ex3/A5.json"
         abs_file_path = os.path.join(script_dir, rel_path)
         gaA5 = GraphAlgo()
         gaA5.load_from_json(abs_file_path)
